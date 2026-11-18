@@ -1,19 +1,19 @@
 # 🌿 Flora-MD
 ### Plant Disease Detection Using Convolutional Neural Networks
 
-Flora-MD is a deep learning project focused on identifying plant diseases from leaf images using a Convolutional Neural Network (CNN).
+Flora-MD is a deep learning project that explores the use of Convolutional Neural Networks (CNNs) to identify plant diseases from leaf images.
 
-The project aims to support early disease identification by classifying plant leaf images into different health conditions.
+The project focuses on classifying plant leaves into healthy and diseased categories using image processing and deep learning techniques.
+
+---
 
 ## 🎯 Project Overview
 
-Plant diseases can significantly affect agricultural productivity and crop quality. Early identification helps in taking timely preventive measures.
+Plant diseases can affect crop health and agricultural productivity. Early identification of symptoms can help support timely disease management.
 
-Flora-MD explores the use of deep learning and computer vision to automate the identification of common plant leaf diseases.
+Flora-MD uses a CNN-based image classification approach to recognize three plant leaf conditions.
 
-## 🧠 Model & Classification
-
-A CNN-based image classification model is used to identify three categories:
+## 🧠 Disease Classification
 
 | Class | Description |
 |---|---|
@@ -21,52 +21,65 @@ A CNN-based image classification model is used to identify three categories:
 | Powdery | Leaves affected by powdery mildew |
 | Rust | Leaves affected by rust disease |
 
+## ⚙️ Model Development
+
+The project uses a custom CNN model developed with TensorFlow and Keras.
+
+The model development workflow includes:
+
+- Loading and organizing plant leaf images
+- Resizing images to 256 × 256 pixels
+- Normalizing image pixel values
+- Applying data augmentation during training
+- Training a CNN-based image classifier
+- Evaluating the classification model
+
+### Data Augmentation
+
+The training pipeline includes:
+- Random rotation
+- Random brightness adjustment
+- Random contrast adjustment
+
 ## 📊 Dataset
 
-- **Total images:** 1,530
+- **Dataset:** Plant Disease Recognition Dataset
 - **Number of classes:** 3
-- **Image type:** Plant leaf images
+- **Image dimensions:** 256 × 256
 - **Dataset source:** [Plant Disease Recognition Dataset – Kaggle](https://www.kaggle.com/datasets/rashikrahmanpritom/plant-disease-recognition-dataset)
 
-The dataset was used for training, validation and testing of the classification model.
+The dataset is organized into training, testing and validation subsets.
 
-## 📈 Model Performance
-
-The project report records an accuracy of **97%** for the developed CNN model.
-
-*Note: This figure is reported in the original academic project report.*
-
-## ⚙️ Technologies Used
+## 🛠️ Technologies Used
 
 - Python
 - TensorFlow
 - Keras
-- Convolutional Neural Networks (CNN)
 - NumPy
+- PIL (Pillow)
+- Plotly
 - Jupyter Notebook
+- Convolutional Neural Networks (CNN)
 
 ## 🔄 Project Workflow
 
-1. Collect and prepare plant leaf images.
-2. Preprocess images for model training.
-3. Train a CNN-based classification model.
-4. Evaluate model performance.
-5. Classify leaf images into the three disease categories.
+1. Dataset collection and organization
+2. Image preprocessing and normalization
+3. Data augmentation
+4. CNN model development
+5. Model training
+6. Model evaluation and visualization
 
 ## 📁 Repository Structure
 
 ```text
 Flora-MD/
 │
-├── assets/       # Project-related resources
-├── notebook/    # Model development and experimentation
-└── README.md    # Project documentation
-```
-
-## 🌱 Project Objective
-
-To explore how deep learning and computer vision can contribute to early plant disease identification and support better agricultural practices.
-
-## 📄 License
-
-This project is licensed under the MIT License.
+├── assets/
+│   ├── floralogo.png
+│   ├── floralogo2.png
+│   ├── logo.png
+│   └── team.png
+│
+├── notebook/
+│  
