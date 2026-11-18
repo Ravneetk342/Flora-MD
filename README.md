@@ -82,4 +82,21 @@ Flora-MD/
 │   └── team.png
 │
 ├── notebook/
-│  
+│   └── Plant-Disease-Detection-using-CNN.ipynb
+│
+└── README.md
+```
+
+## 📓 Project Notebook
+
+Explore the complete model development and experimentation process:
+
+[**Plant Disease Detection using CNN – Jupyter Notebook**](notebook/Plant-Disease-Detection-using-CNN.ipynb)
+
+## 🌱 Project Objective
+
+To explore how deep learning and computer vision can be applied to plant disease identification and contribute to technology-assisted agricultural solutions.
+
+---
+
+*Flora-MD — Exploring AI for healthier plants.*
