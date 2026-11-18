@@ -1,5 +1,13 @@
-# 🌿 Flora-MD
-### Plant Disease Detection Using Convolutional Neural Networks
+<p align="center">
+  <img src="assets/floralogo.png" alt="Flora-MD Logo" width="220"/>
+</p>
+
+<h1 align="center">Flora-MD</h1>
+
+<p align="center">
+  <b>Plant Disease Detection Using Convolutional Neural Networks</b>
+</p>
+
 
 Flora-MD is a deep learning project that explores the use of Convolutional Neural Networks (CNNs) to identify plant diseases from leaf images.
 
