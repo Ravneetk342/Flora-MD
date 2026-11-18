@@ -1,19 +1,27 @@
-<p align="center">
+ <p align="center">
   <img src="assets/floralogo.png" alt="Flora-MD Logo" width="220"/>
 </p>
 
 <h1 align="center">Flora-MD</h1>
 
 <p align="center">
-  <b>Plant Disease Detection Using Convolutional Neural Networks</b>
+  <strong>Plant Disease Detection Using Convolutional Neural Networks</strong>
 </p>
 
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white"/>
+</p>
+
+---
+
+## 🌱 About the Project
 
 Flora-MD is a deep learning project that explores the use of Convolutional Neural Networks (CNNs) to identify plant diseases from leaf images.
 
 The project focuses on classifying plant leaves into healthy and diseased categories using image processing and deep learning techniques.
-
----
 
 ## 🎯 Project Overview
 
@@ -33,7 +41,7 @@ Flora-MD uses a CNN-based image classification approach to recognize three plant
 
 The project uses a custom CNN model developed with TensorFlow and Keras.
 
-The model development workflow includes:
+The model development pipeline includes:
 
 - Loading and organizing plant leaf images
 - Resizing images to 256 × 256 pixels
@@ -45,6 +53,7 @@ The model development workflow includes:
 ### Data Augmentation
 
 The training pipeline includes:
+
 - Random rotation
 - Random brightness adjustment
 - Random contrast adjustment
@@ -60,23 +69,37 @@ The dataset is organized into training, testing and validation subsets.
 
 ## 🛠️ Technologies Used
 
-- Python
-- TensorFlow
-- Keras
-- NumPy
-- PIL (Pillow)
-- Plotly
-- Jupyter Notebook
-- Convolutional Neural Networks (CNN)
+| Technology | Purpose |
+|---|---|
+| Python | Core programming language |
+| TensorFlow | Deep learning framework |
+| Keras | CNN model development |
+| NumPy | Numerical operations |
+| Pillow (PIL) | Image processing |
+| Plotly | Data visualization |
+| Jupyter Notebook | Model development and experimentation |
 
 ## 🔄 Project Workflow
 
-1. Dataset collection and organization
-2. Image preprocessing and normalization
-3. Data augmentation
-4. CNN model development
-5. Model training
-6. Model evaluation and visualization
+```mermaid
+flowchart TD
+    A["Plant Leaf Dataset"] --> B["Image Preprocessing"]
+    B --> C["Data Augmentation"]
+    C --> D["CNN Model Development"]
+    D --> E["Model Training"]
+    E --> F["Model Evaluation"]
+    F --> G["Plant Disease Classification"]
+```
+
+## 📓 Project Notebook
+
+Explore the complete model development and experimentation process:
+
+<p align="center">
+  <a href="notebook/Plant-Disease-Detection-using-CNN.ipynb">
+    <img src="https://img.shields.io/badge/Explore-Project_Notebook-orange?style=for-the-badge&logo=jupyter"/>
+  </a>
+</p>
 
 ## 📁 Repository Structure
 
@@ -95,16 +118,12 @@ Flora-MD/
 └── README.md
 ```
 
-## 📓 Project Notebook
-
-Explore the complete model development and experimentation process:
-
-[**Plant Disease Detection using CNN – Jupyter Notebook**](notebook/Plant-Disease-Detection-using-CNN.ipynb)
-
-## 🌱 Project Objective
+## 🌍 Project Objective
 
 To explore how deep learning and computer vision can be applied to plant disease identification and contribute to technology-assisted agricultural solutions.
 
 ---
 
-*Flora-MD — Exploring AI for healthier plants.*
+<p align="center">
+  <strong>🌿 Flora-MD — Exploring AI for Healthier Plants.</strong>
+</p>
